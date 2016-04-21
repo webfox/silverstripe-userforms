@@ -1,0 +1,12 @@
+---
+Name: wf-userforms
+Only:
+  ModuleExists: userforms
+---
+UserDefinedForm:
+  extensions:
+    - OriginalContentExtension
+
+UserDefinedForm_Controller:
+  extensions:
+      - ApplyWebfoxUserformsOverrides

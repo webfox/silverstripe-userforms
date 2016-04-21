@@ -1,0 +1,17 @@
+.step-navigation ul:not([pseudo]).step-buttons,
+.userform-progress ul:not([pseudo]).step-buttons{
+    margin: 0;
+    padding: 0;
+}
+
+.userform-progress .progress {
+    margin-bottom: 10px;
+}
+
+.userform-progress ul:not([pseudo]).step-buttons {
+    text-align: center;
+}
+
+.userform-progress .step-button-wrapper .step-button-jump {
+    position: initial;
+}
