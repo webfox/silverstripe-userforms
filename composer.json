@@ -1,0 +1,23 @@
+{
+	"name": "webfox/userforms",
+	"description": "Webfox wrapper around silverstripe/userforms",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "userforms", "webfox"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Matthew Hailwood",
+			"email": "matthew@webfox.co.nz"
+		},
+		{
+			"name": "Otis Wright",
+			"email": "otis@webfox.co.nz"
+		}
+	],
+	"require": {
+		"silverstripe/userforms": "~3.3"
+	},
+	"extra": {
+		"installer-name": "webfox-userforms"
+	}
+}
