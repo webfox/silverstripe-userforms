@@ -7,10 +7,6 @@ UserDefinedForm:
   extensions:
     - OriginalContentExtension
 
-UserDefinedForm_Controller:
-  extensions:
-    - ApplyWebfoxUserformsOverrides
-
 EditableDropdown:
   extensions:
     - EditableDropdownExtension
