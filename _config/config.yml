@@ -6,6 +6,7 @@ Only:
 UserDefinedForm:
   extensions:
     - OriginalContentExtension
+    - WebFoxUserFormExtension
 
 EditableDropdown:
   extensions:

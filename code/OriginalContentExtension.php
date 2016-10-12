@@ -17,4 +17,8 @@ class OriginalContentExtension extends SiteTreeExtension
     {
         return $this->owner->Content;
     }
+
+    public function getHasForm(){
+        return !!$this->owner->Fields()->exclude(['ClassName' => 'EditableFormStep'])->Count();
+    }
 }
