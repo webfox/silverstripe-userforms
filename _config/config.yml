@@ -1,15 +1,16 @@
 ---
-Name: wf-userforms
+Name: webfox-userforms
 Only:
   ModuleExists: userforms
 ---
 UserDefinedForm:
   extensions:
     - OriginalContentExtension
+    - WebFoxUserDefinedFormExtension
 
-UserDefinedForm_Controller:
+UserForm:
   extensions:
-    - ApplyWebfoxUserformsOverrides
+    - WebFoxUserFormExtension
 
 EditableDropdown:
   extensions:
